@@ -4,7 +4,7 @@ Submitted by: Kevon Dawkins
 
 This web app: **Allows users to share their passion by creating posts with titles, content, and images. My topic is focused on being a software/hardware engineer and learning how both fields together enhance future opportunities. Users can create, view, edit, delete, upvote, and comment on posts.**
 
-Time spent: **10+ hours spent in total**
+Time spent: **10 hours spent in total**
 
 ## Required Features
 
