@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Web Development Final Project - HobbyHub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Submitted by: Kevon Dawkins
 
-## Available Scripts
+This web app: **Allows users to share their passion by creating posts with titles, content, and images. My topic is focused on being a software/hardware engineer and learning how both fields together enhance future opportunities. Users can create, view, edit, delete, upvote, and comment on posts.**
 
-In the project directory, you can run:
+Time spent: **10+ hours spent in total**
 
-### `npm start`
+## Required Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following **required** functionality is completed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [x] **Web app includes a create form that allows the user to create posts**
+  - Form requires users to add a post title
+  - Forms allow users to add:
+    - additional textual content
+    - an image added as an external image URL
+- [x] **Web app includes a home feed displaying previously created posts**
+  - Displays title, creation time, and upvote count
+  - Posts are sorted by newest first
+  - Clicking a post opens a separate detail page
+- [x] **Users can view posts in different ways**
+  - Posts can be sorted by:
+    - creation time
+    - upvotes count
+  - Users can search for posts by title
+- [x] **Users can interact with each post in different ways**
+  - Each post has a detail page showing:
+    - content
+    - image
+    - comments
+  - Users can leave comments
+  - Posts can be upvoted multiple times
+- [x] **A post that a user previously created can be edited or deleted from its post pages**
+  - Posts have edit forms with pre-filled values
+  - Users can delete posts from the detail page
 
-### `npm test`
+## Optional Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following **optional** features are implemented:
 
-### `npm run build`
+- [x] Web app uses Row Level Security policies (SELECT and INSERT)
+- [x] Posts include upvote counts that update instantly
+- [x] Comments display with time of creation
+- [x] Clean UI with light theme and responsive layout
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Additional Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [x] Comment section auto-refreshes when a new comment is added
+- [x] Live upvote updates without refresh
+- [x] Navigation bar with links to all pages
+- [x] Minimal and accessible design
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Video Walkthrough
 
-### `npm run eject`
+Here's a walkthrough of implemented user stories:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src='https://github.com/KDawTech/final-project-web-102/blob/main/final%20project.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+GIF created with **ScreenToGif**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Notes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Challenges:
+- Supabase Row Level Security blocked data until policies were configured correctly
+- Used .env setup for storing Supabase API keys
+- React state management with live updates was tricky to debug at first
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Copyright 2025 Kevon Dawkins
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-### Code Splitting
+        http://www.apache.org/licenses/LICENSE-2.0
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
